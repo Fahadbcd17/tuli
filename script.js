@@ -4,7 +4,9 @@ const products = [
     title: "Women's 2025 new mobile phone bag sweet temperament shoulder messenger bag fashionable all-match sequin chain handbag",
     code: "SP01",
     weight: "330g",
+    size: "21cm (L) × 8cm (W) × 14cm (H)",
     price: "800",
+    selling_price: "950", //1300
     color: "Black, White, Red",
     available: "Black, White",
     image: "./assets/SP01.jpg",
@@ -15,7 +17,9 @@ const products = [
     title: "Taizhou bright leather stone pattern ladies bag small square bag pu women's bag solid color handbag messenger bag shoulder bag",
     code: "MP01",
     weight: "550g",
+    size: "26cm (L) × 11cm (W) × 18cm (H)",
     price: "1550",
+    selling_price: "2499", //3450
     color: "Black, White, Wine Red, Earthly Yellow, Green",
     available: "Black, White, Earthly Yellow",
     image: "./assets/MP01.jpg",
@@ -26,7 +30,9 @@ const products = [
     title: "Large capacity texture large bag women 2025 new style high-end spring and autumn shoulder bag versatile net celebrity tote bag",
     code: "HB01",
     weight: "305g",
+    size: "28cm (L) × 11cm (W) × 23cm (H),300g",
     price: "750",
+    selling_price: "999", //1700
     color: "Black, White, Coffee, Khaki",
     available: "Black, White, Coffee, Khaki",
     image: "./assets/HB01.jpg",
@@ -37,7 +43,9 @@ const products = [
     title: "New macaron three-piece set fashion handbag Western style simple large capacity shoulder bag high value crossbody women's bag",
     code: "BP01",
     weight: "1085g",
+    size: "Length 29cm, Width 14cm, Height 22cm",
     price: "2050",
+    selling_price: "3499", //4350
     color: "Black, White, Pink, Yellow, Green, Earthly Yellow, Red, Khaki",
     available: "Black, Pink, Yellow",
     image: "./assets/BP01.jpg",
@@ -48,7 +56,9 @@ const products = [
     title: "Advanced texture large-capacity bucket bag women's 2024 summer new fashion messenger bag niche commuter shoulder bag",
     code: "BP02",
     weight: "310g",
+    size: "",
     price: "700",
+    selling_price: "",
     color: "White",
     available: "White",
     image: "./assets/BP02.jpg",
@@ -59,7 +69,9 @@ const products = [
     title: "Brand Atmospheric Leather Ladies Handbag Premium Bag 2025 New Women's Bag Fashion Send Mom Bag Middle Age",
     code: "BP03",
     weight: "735g",
+    size: "29cm (L) × 12cm (W) × 23cm (H)",
     price: "1800",
+    selling_price: "2799", //2800
     color: "Blue, Rice White, Black, Yellow, Green",
     available: "Blue, White, Black, Green",
     image: "./assets/BP03.jpg",
@@ -91,7 +103,8 @@ function renderProducts() {
                 <div class="product-info">
                     <p><span class="info-label">Code:</span> ${product.code}</p>
                     <p><span class="info-label">Weight:</span> ${product.weight}</p>
-                    <p><span class="info-label">Price:</span> ${product.price}</p>
+                    <p><span class="info-label">Size:</span> ${product.size}</p>
+                    <p><span class="info-label">Selling Price:</span> ${product.selling_price}</p>
                     <p><span class="info-label">Color:</span> ${product.color}</p>
                     <p><span class="info-label">Available:</span> ${product.available}</p>
                 </div>
