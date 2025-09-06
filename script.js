@@ -1,59 +1,64 @@
 // Product data
 const products = [
   {
-    title: "Women's 2025 new mobile phone bag sweet temperament shoulder messenger bag fashionable all-match sequin chain handbag",
+    title:
+      "Women's 2025 new mobile phone bag sweet temperament shoulder messenger bag fashionable all-match sequin chain handbag",
     code: "SP01",
     weight: "330g",
     size: "21cm (L) × 8cm (W) × 14cm (H)",
     price: "800",
     selling_price: "950", //1300
     color: "Black, White, Red",
-    available: "Black, White",
+    available: "Black-2, White-2",
     image: "./assets/SP01.jpg",
     driveLink:
       "https://drive.google.com/drive/folders/1EW5_Is8lKWeA7l3PkSWwllPpO_IYm_IG?usp=drive_link",
   },
   {
-    title: "Taizhou bright leather stone pattern ladies bag small square bag pu women's bag solid color handbag messenger bag shoulder bag",
+    title:
+      "Taizhou bright leather stone pattern ladies bag small square bag pu women's bag solid color handbag messenger bag shoulder bag",
     code: "MP01",
     weight: "550g",
     size: "26cm (L) × 11cm (W) × 18cm (H)",
     price: "1550",
     selling_price: "2499", //3450
     color: "Black, White, Wine Red, Earthly Yellow, Green",
-    available: "Black, White, Earthly Yellow",
+    available: "Black-1, White-1, Earthly Yellow-1",
     image: "./assets/MP01.jpg",
     driveLink:
       "https://drive.google.com/drive/folders/1gdvJ1-QBuzEuKf_rAZG_93dBk7d-HXZ2?usp=drive_link",
   },
   {
-    title: "Large capacity texture large bag women 2025 new style high-end spring and autumn shoulder bag versatile net celebrity tote bag",
+    title:
+      "Large capacity texture large bag women 2025 new style high-end spring and autumn shoulder bag versatile net celebrity tote bag",
     code: "HB01",
     weight: "305g",
     size: "28cm (L) × 11cm (W) × 23cm (H),300g",
     price: "750",
     selling_price: "999", //1700
     color: "Black, White, Coffee, Khaki",
-    available: "Black, White, Coffee, Khaki",
+    available: "Black-2, White-2, Coffee-2, Khaki-1",
     image: "./assets/HB01.jpg",
     driveLink:
       "https://drive.google.com/drive/folders/10gyVh549HiBadl8sfc31uILViNCaPGCU?usp=drive_link",
   },
   {
-    title: "New macaron three-piece set fashion handbag Western style simple large capacity shoulder bag high value crossbody women's bag",
+    title:
+      "New macaron three-piece set fashion handbag Western style simple large capacity shoulder bag high value crossbody women's bag",
     code: "BP01",
     weight: "1085g",
     size: "Length 29cm, Width 14cm, Height 22cm",
     price: "2050",
     selling_price: "3499", //4350
     color: "Black, White, Pink, Yellow, Green, Earthly Yellow, Red, Khaki",
-    available: "Black, Pink, Yellow",
+    available: "Black-2, Pink-3, Yellow-2",
     image: "./assets/BP01.jpg",
     driveLink:
       "https://drive.google.com/drive/folders/1V_HePoBuhhYeDsbCzKFYQ2TeHJYktPFD?usp=drive_link",
   },
   {
-    title: "Advanced texture large-capacity bucket bag women's 2024 summer new fashion messenger bag niche commuter shoulder bag",
+    title:
+      "Advanced texture large-capacity bucket bag women's 2024 summer new fashion messenger bag niche commuter shoulder bag",
     code: "BP02",
     weight: "310g",
     size: "",
@@ -66,18 +71,19 @@ const products = [
       "https://drive.google.com/drive/folders/19DUnCC7ChFfA8JVWLXwCLwA3F0-4PlRa?usp=drive_link",
   },
   {
-    title: "Brand Atmospheric Leather Ladies Handbag Premium Bag 2025 New Women's Bag Fashion Send Mom Bag Middle Age",
+    title:
+      "Brand Atmospheric Leather Ladies Handbag Premium Bag 2025 New Women's Bag Fashion Send Mom Bag Middle Age",
     code: "BP03",
     weight: "735g",
     size: "29cm (L) × 12cm (W) × 23cm (H)",
     price: "1800",
     selling_price: "2799", //2800
     color: "Blue, Rice White, Black, Yellow, Green",
-    available: "Blue, White, Black, Green",
+    available: "Blue-1, White-1, Black-1",
     image: "./assets/BP03.jpg",
     driveLink:
       "https://drive.google.com/drive/folders/19CpCFMDVBXZLpip-fscY3Ci-KHC8wreo?usp=drive_link",
-  }  
+  },
 ];
 
 // DOM elements
