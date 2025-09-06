@@ -6,6 +6,7 @@ const products = [
     code: "SP01",
     weight: "330g",
     size: "21cm (L) × 8cm (W) × 14cm (H)",
+    quality: "এই ব্যাগটি উচ্চমানের PU (synthetic leather) চামড়া, উচ্চমানের কাপড় এবং উচ্চমানের হার্ডওয়্যার দিয়ে তৈরি।",
     price: "800",
     selling_price: "950", //1300
     color: "Black, White, Red",
@@ -20,6 +21,7 @@ const products = [
     code: "MP01",
     weight: "550g",
     size: "26cm (L) × 11cm (W) × 18cm (H)",
+    quality: "PU synthetic leather",
     price: "1550",
     selling_price: "2499", //3450
     color: "Black, White, Wine Red, Earthly Yellow, Green",
@@ -34,6 +36,7 @@ const products = [
     code: "HB01",
     weight: "305g",
     size: "28cm (L) × 11cm (W) × 23cm (H),300g",
+    quality: "synthetic leather",
     price: "750",
     selling_price: "999", //1700
     color: "Black, White, Coffee, Khaki",
@@ -48,6 +51,7 @@ const products = [
     code: "BP01",
     weight: "1085g",
     size: "Length 29cm, Width 14cm, Height 22cm",
+    quality: "PU synthetic leather",
     price: "2050",
     selling_price: "3499", //4350
     color: "Black, White, Pink, Yellow, Green, Earthly Yellow, Red, Khaki",
@@ -76,6 +80,7 @@ const products = [
     code: "BP03",
     weight: "735g",
     size: "29cm (L) × 12cm (W) × 23cm (H)",
+    quality: "synthetic leather",
     price: "1800",
     selling_price: "2799", //2800
     color: "Blue, Rice White, Black, Yellow, Green",
@@ -110,6 +115,7 @@ function renderProducts() {
                     <p><span class="info-label">Code:</span> ${product.code}</p>
                     <p><span class="info-label">Weight:</span> ${product.weight}</p>
                     <p><span class="info-label">Size:</span> ${product.size}</p>
+                    <p><span class="info-label">Quality:</span> ${product.quality}</p>
                     <p><span class="info-label">Selling Price:</span> ${product.selling_price}</p>
                     <p><span class="info-label">Color:</span> ${product.color}</p>
                     <p><span class="info-label">Available:</span> ${product.available}</p>
