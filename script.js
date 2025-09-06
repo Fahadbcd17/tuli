@@ -60,20 +60,20 @@ const products = [
     driveLink:
       "https://drive.google.com/drive/folders/1V_HePoBuhhYeDsbCzKFYQ2TeHJYktPFD?usp=drive_link",
   },
-  {
-    title:
-      "Advanced texture large-capacity bucket bag women's 2024 summer new fashion messenger bag niche commuter shoulder bag",
-    code: "BP02",
-    weight: "310g",
-    size: "",
-    price: "700",
-    selling_price: "",
-    color: "White",
-    available: "White",
-    image: "./assets/BP02.jpg",
-    driveLink:
-      "https://drive.google.com/drive/folders/19DUnCC7ChFfA8JVWLXwCLwA3F0-4PlRa?usp=drive_link",
-  },
+  // {
+  //   title:
+  //     "Advanced texture large-capacity bucket bag women's 2024 summer new fashion messenger bag niche commuter shoulder bag",
+  //   code: "BP02",
+  //   weight: "310g",
+  //   size: "",
+  //   price: "700",
+  //   selling_price: "",
+  //   color: "White",
+  //   available: "White",
+  //   image: "./assets/BP02.jpg",
+  //   driveLink:
+  //     "https://drive.google.com/drive/folders/19DUnCC7ChFfA8JVWLXwCLwA3F0-4PlRa?usp=drive_link",
+  // },
   {
     title:
       "Brand Atmospheric Leather Ladies Handbag Premium Bag 2025 New Women's Bag Fashion Send Mom Bag Middle Age",
