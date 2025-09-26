@@ -6,7 +6,8 @@ const products = [
     code: "SP01",
     weight: "330g",
     size: "21cm (L) × 8cm (W) × 14cm (H)",
-    quality: "এই ব্যাগটি উচ্চমানের PU (synthetic leather) চামড়া, উচ্চমানের কাপড় এবং উচ্চমানের হার্ডওয়্যার দিয়ে তৈরি।",
+    quality:
+      "এই ব্যাগটি উচ্চমানের PU (synthetic leather) চামড়া, উচ্চমানের কাপড় এবং উচ্চমানের হার্ডওয়্যার দিয়ে তৈরি।",
     price: "800",
     selling_price: "949", //1300
     color: "Black, White, Red",
@@ -84,7 +85,7 @@ const products = [
     price: "1800",
     selling_price: "2249", //2800
     color: "Blue, Rice White, Black, Yellow, Green",
-    available: "Blue-1, White-1, Black-1",
+    available: "Blue-1, White-1",
     image: "./assets/BP03.jpg",
     driveLink:
       "https://drive.google.com/drive/folders/19CpCFMDVBXZLpip-fscY3Ci-KHC8wreo?usp=drive_link",
