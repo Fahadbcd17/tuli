@@ -9,7 +9,8 @@ const products = [
     quality:
       "এই ব্যাগটি উচ্চমানের PU (synthetic leather) চামড়া, উচ্চমানের কাপড় এবং উচ্চমানের হার্ডওয়্যার দিয়ে তৈরি।",
     price: "800",
-    selling_price: "949", //1300
+    regular_price: "1300",
+    discount_price: "949",
     color: "Black, White, Red",
     available: "Black-2, White-2",
     image: "./assets/SP01.jpg",
@@ -24,7 +25,8 @@ const products = [
     size: "26cm (L) × 11cm (W) × 18cm (H)",
     quality: "PU synthetic leather",
     price: "1550",
-    selling_price: "1799", //3450
+    regular_price: "3450",
+    discount_price: "1799",
     color: "Black, White, Wine Red, Earthly Yellow, Green",
     available: "Black-1, White-1, Earthly Yellow-1",
     image: "./assets/MP01.jpg",
@@ -39,7 +41,8 @@ const products = [
     size: "28cm (L) × 11cm (W) × 23cm (H),300g",
     quality: "synthetic leather",
     price: "750",
-    selling_price: "949", //1700
+    regular_price: "1700",
+    discount_price: "949",
     color: "Black, White, Coffee, Khaki",
     available: "Black-2, White-2, Coffee-2, Khaki-1",
     image: "./assets/HB01.jpg",
@@ -54,7 +57,8 @@ const products = [
     size: "Length 29cm, Width 14cm, Height 22cm",
     quality: "PU synthetic leather",
     price: "2050",
-    selling_price: "2699", //4350
+    regular_price: "4350",
+    discount_price: "2699",
     color: "Black, White, Pink, Yellow, Green, Earthly Yellow, Red, Khaki",
     available: "Black-2, Pink-3, Yellow-2",
     image: "./assets/BP01.jpg",
@@ -83,7 +87,8 @@ const products = [
     size: "29cm (L) × 12cm (W) × 23cm (H)",
     quality: "synthetic leather",
     price: "1800",
-    selling_price: "2249", //2800
+    regular_price: "2800",
+    discount_price: "2249",       
     color: "Blue, Rice White, Black, Yellow, Green",
     available: "Blue-1, White-1",
     image: "./assets/BP03.jpg",
@@ -117,7 +122,8 @@ function renderProducts() {
                     <p><span class="info-label">Weight:</span> ${product.weight}</p>
                     <p><span class="info-label">Size:</span> ${product.size}</p>
                     <p><span class="info-label">Quality:</span> ${product.quality}</p>
-                    <p><span class="info-label">Selling Price:</span> ${product.selling_price}</p>
+                    <p><span class="info-label">Regular Price:</span> ${product.regular_price}</p>
+                    <p><span class="info-label">Discount Price:</span> ${product.discount_price}</p>
                     <p><span class="info-label">Color:</span> ${product.color}</p>
                     <p><span class="info-label">Available:</span> ${product.available}</p>
                 </div>
